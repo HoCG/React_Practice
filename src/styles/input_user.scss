@@ -1,0 +1,37 @@
+.input-user {
+  margin-bottom: 30px;
+  > * {
+    font-weight: 800;
+  }
+  &__color-part {
+    margin-bottom: 10px;
+    &--color-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      user-select: none;
+      cursor: pointer;
+      background-color: lightslategrey;
+      color: white;
+      border-radius: 12px;
+      width: 100px;
+      height: 40px;
+    }
+    &--color-demo {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  &__submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    background-color: slateblue;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+  }
+}

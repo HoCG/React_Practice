@@ -1,0 +1,16 @@
+.user-info-box {
+  width: 280px;
+  height: 280px;
+  position: relative;
+}
+.user-delete-button {
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: 0%;
+  left: 100%;
+  transform: translate(-60%, -50%);
+  cursor: pointer;
+  position: absolute;
+}
